@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  vim:
+    build: .
+    volumes:
+      - ./workdir:/workdir
+    command: sleep .1
+    working_dir: /workdir
