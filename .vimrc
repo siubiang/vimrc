@@ -32,7 +32,7 @@ call dein#add('vim-scripts/vim-auto-save') " 自動保存
 let g:auto_save = 1
 let g:auto_save_in_insert_mode = 0
 call dein#add('twitvim/twitvim') " Twitterクライアント
-let twitvim_count = 40
+let twitvim_count = 100
 nnoremap ,tp :<C-u>PosttoTwitter<CR>
 nnoremap ,tf :<C-u>FriendsTwitter<CR><C-w>j
 nnoremap ,tu :<C-u>UserTwitter<CR><C-w>j
