@@ -23,7 +23,9 @@ call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
 " Add or remove your plugins here like this:
 call dein#add('tpope/vim-fugitive') " Git操作全般
 call dein#add('airblade/vim-gitgutter') " Git差異を行に表示
-call dein#add('scrooloose/nerdtree') " ファイルツリー
+call dein#add('ryanoasis/vim-devicons') " ファイルツリー
+call dein#add('scrooloose/nerdtree')
+call dein#add('tiagofumo/vim-nerdtree-syntax-highlight')
 nnoremap <C-n> :NERDTreeFocus<CR>
 nnoremap <Space>n :NERDTree<CR>
 nnoremap <Space>t :NERDTreeToggle<CR>
