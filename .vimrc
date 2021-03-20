@@ -25,7 +25,8 @@ call dein#add('tpope/vim-fugitive') " Git操作全般
 call dein#add('airblade/vim-gitgutter') " Git差異を行に表示
 call dein#add('ryanoasis/vim-devicons') " ファイルツリー
 call dein#add('scrooloose/nerdtree')
-call dein#add('tiagofumo/vim-nerdtree-syntax-highlight')
+call dein#remove('tiagofumo/vim-nerdtree-syntax-highlight')
+call dein#add('ryanoasis/nerd-fonts')
 nnoremap <C-n> :NERDTreeFocus<CR>
 nnoremap <Space>n :NERDTree<CR>
 nnoremap <Space>t :NERDTreeToggle<CR>
