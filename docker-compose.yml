@@ -3,6 +3,7 @@ services:
   vim:
     build: .
     volumes:
+      - .vimrc:${HOME}/.vimrc
       - ./workdir:/workdir
     command: sleep .1
     working_dir: /workdir
